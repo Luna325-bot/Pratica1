@@ -12,12 +12,12 @@ function App() {
     return (
         <div>
             <div>
-                Capture su texto
+                Escriba su Texto
             </div>
 
             <input value={miTexto} onChange={handleText} />
 
-            <h3>Su Texto</h3>
+            <h3>Texto Escrito</h3>
             <p>
                 {miTexto}
             </p>
